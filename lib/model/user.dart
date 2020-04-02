@@ -4,12 +4,14 @@ class User {
   String name;
   int age;
   String addr;
+  int count;
   String code;
 
   User({
     this.name,
     this.age,
     this.addr,
+    this.count,
     this.code
   });
 
@@ -19,6 +21,7 @@ class User {
         name: sampleResponse.json["name"],
         addr: sampleResponse.json["addr"],
         age: sampleResponse.json["age"],
+        count: sampleResponse.json["count"],
         code: "success"
     );
   }

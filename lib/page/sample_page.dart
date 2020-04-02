@@ -59,6 +59,7 @@ class _SamplePageState extends State<SamplePage> {
               children: <Widget>[
                 Text(snapshot.data.name),
                 Text(snapshot.data.addr),
+                Text(snapshot.data.count.toString()),
                 Divider(color: Colors.black,),
               ],
             ),

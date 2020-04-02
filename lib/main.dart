@@ -4,7 +4,7 @@ import 'package:redhotblocpatternsample/page/sample_page.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  // this is RedHotSixBull's basic bloc sample app
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

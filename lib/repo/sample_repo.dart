@@ -7,6 +7,7 @@ class SampleRepo {
   SampleResponse sampleResponse = SampleResponse();
   User user =User();
   Future<User> updateUser()async {
+    //get Data Provider  ex) firebase , API , const value , enum etc..
     sampleResponse = await sampleProvider.updateUser();
 
     return user.returnfromJson(sampleResponse);

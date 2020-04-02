@@ -1,5 +1,5 @@
 class SampleResponse {
-
+  //here write response structure String , json, Object Etc..
   Map<String, dynamic> json;
   String error;
   SampleResponse({this.json, this.error});
